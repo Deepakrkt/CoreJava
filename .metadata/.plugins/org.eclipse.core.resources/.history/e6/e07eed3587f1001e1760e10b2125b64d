@@ -1,0 +1,34 @@
+package iteratorpracticed.in;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+
+public class IteratorPracticed {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		List<Employee> emp1 = new ArrayList<>();
+		emp1.add(new Employee(1, "Jhon", 10000.0, "jhon@gmail.com"));
+		emp1.add(new Employee(2, "Bob", 20000.0, "bob@gmail.com"));
+		emp1.add(new Employee(3, "Tom", 30000.0, "tom@gmail.com"));
+		emp1.add(new Employee(4, "Sam", 40000.0, "sam@gmail.com"));
+		
+		Iterator<Employee> iterator = emp1.iterator();
+		while (iterator.hasNext()) {
+			Employee employee = iterator.next();
+			if(employee.getSalary()<=30000.0)
+				iterator.remove();	
+		}
+		Iterator<Employee> iterator2 = emp1.iterator();
+		while (iterator.hasNext()) {
+			Employee employee = iterator2.next();
+		System.out.println(employee);
+		}
+		System.out.println(emp1);
+
+
+	}
+
+}

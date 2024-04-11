@@ -1,0 +1,29 @@
+package listiterator.in;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.ListIterator;
+
+public class ListtIterator {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	List<Employee> emp1 = new ArrayList<>();
+	emp1.add(new Employee(1, "Jhon", 100.0, "jhon@gmail.com"));
+	emp1.add(new Employee(2, "Bob", 200.0, "Bob@gmail.com"));
+	emp1.add(new Employee(3, "Tom", 300.0, "Tom@gmail.com"));
+	emp1.add(new Employee(4, "Sam", 400.0, "Sam@gmail.com"));
+	}
+	
+	private static void iterateListUsingListIterator(List<Employee> emp1) {
+		ListIterator<Employee> list1 = emp1.listIterator();
+		while (list1.hasNext()) {
+			Employee employee = list1.next();
+			System.out.println(emp1);
+	}
+	
+		
+	}
+
+}

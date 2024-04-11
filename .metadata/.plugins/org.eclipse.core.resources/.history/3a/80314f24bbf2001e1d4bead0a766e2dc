@@ -1,0 +1,49 @@
+package unit1execise.in;
+
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.ListIterator;
+
+public class Unit1Exercise {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		List<Person> list1 = new ArrayList<>();
+		list1.add(new Person("KK", "Biw", 11));
+		list1.add(new Person("MK", "Zib", 16));
+		list1.add(new Person("CK", "Nib", 19));
+		list1.add(new Person("RK", "Bib", 12));
+		
+		// Step 1: sort list by last Name
+		
+		Collections.sort(list1, new Comparator<Person>() {
+
+			@Override
+			public int compare(Person o1, Person o2) {
+				// TODO Auto-generated method stub
+				
+				return o1.getLname().compareTo(o2.getLname());
+			}
+		});
+		
+		// Step 2: create a method that print all element in the list
+		
+		printAll(list1);
+		
+		// step 3: create a method that prints all people that have last name beginning with c
+
+	}
+
+	private static void printAll(List<Person> list1) {
+		// TODO Auto-generated method stub
+		for(Person p : list1) {
+			System.out.println(p);
+		}
+		
+	}
+
+}

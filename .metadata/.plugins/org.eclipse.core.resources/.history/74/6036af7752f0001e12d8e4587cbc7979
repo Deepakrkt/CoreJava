@@ -1,0 +1,24 @@
+package genexample.in;
+
+public class Example {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		MyGenericClass<Integer> obj1 = new MyGenericClass<>();
+		obj1.setObject(1000);
+		Integer ix = obj1.getObject();
+		System.out.println(ix);
+		
+		MyGenericClass<String> obj2 = new MyGenericClass<>();
+		obj2.setObject("Jhon");
+		Integer iy = obj1.getObject();
+		System.out.println(iy);
+		
+		MyGenericClass<Double> obj3 = new MyGenericClass<>();
+		obj3.setObject(111.11);
+		Integer iz = obj1.getObject();
+		System.out.println(iz);
+
+	}
+
+}

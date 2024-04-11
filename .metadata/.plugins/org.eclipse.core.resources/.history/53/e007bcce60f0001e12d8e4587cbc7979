@@ -1,0 +1,35 @@
+package upperbouded.in;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Iterator;
+import java.util.List;
+
+class Student{
+	private static double sum(List<? extends Number> list2 ) {
+		double total = 0.0;
+		for(Number num : list2) {
+			total += num.doubleValue();
+			return total;
+		}
+		
+		
+		
+		
+	}
+}
+
+public class UpperBoundedWildCard {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Student obj1 = new Student();
+		List<Integer> list1 = new Arrays.asList(5,5,5);
+		System.out.println("Toatl : "+ sum(list1));
+		
+		obj1.sum();
+		
+
+	}
+
+}

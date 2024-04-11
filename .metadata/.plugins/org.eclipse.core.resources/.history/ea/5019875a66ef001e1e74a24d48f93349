@@ -1,0 +1,5 @@
+package singleton.in;
+
+public class DevApp {
+
+}

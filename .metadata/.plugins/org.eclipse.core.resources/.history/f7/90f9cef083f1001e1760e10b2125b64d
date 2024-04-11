@@ -1,0 +1,16 @@
+package iteratorpracticed.in;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class IteratorPracticed {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		List<Integer> emp1 = new ArrayList<>();
+		emp1.add(new Employee(1000, "Deepak", 10000.0, "deepak@gmail.com"));
+
+	}
+
+}

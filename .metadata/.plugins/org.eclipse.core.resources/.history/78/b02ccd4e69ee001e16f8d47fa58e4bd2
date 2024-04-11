@@ -1,0 +1,31 @@
+package encapsulation.in;
+
+class DownloadAndStore{
+	public void name() {
+		
+	}
+	public void rollNo() {
+		
+	}
+	public void id() {
+		
+	}
+	public void doEverything() {
+		name();
+		rollNo();
+		id();
+		
+	}
+	
+}
+
+public class Cohesion {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		DownloadAndStore obj1 = new DownloadAndStore();
+		obj1.doEverything();
+
+	}
+
+}

@@ -1,0 +1,18 @@
+package lambda1.in;
+
+interface College{
+	void enroll(int a);
+}
+
+public class Student {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		College clg1 = (a) -> System.out.println(a+"Hey We are using Lambda Expression");
+		clg1.enroll(15);
+	}
+	
+			
+		};
+			
+	

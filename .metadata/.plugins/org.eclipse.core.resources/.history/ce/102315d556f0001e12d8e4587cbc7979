@@ -1,0 +1,29 @@
+package genericclass.in;
+
+import java.util.List;
+
+public class Student<T> {
+
+	//Declare variable type of list
+	private List<T> list;
+
+	public List<T> getList() {
+		return list;
+	}
+
+	public void setList(List<T> list) {
+		this.list = list;
+	}
+
+	public void setList(List<Integer> list1) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public List<Integer> getList() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+
+}

@@ -1,0 +1,25 @@
+package polymorphism.in;
+
+class calc{
+	public int add(int n1,int n2) {
+		return n1+n2;
+	}
+}
+class AdavancedCalc extends calc{
+//	public int add(int n1,int n2) {
+//		return n1+n2+1;
+//	}
+}
+
+public class Overriding {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		AdavancedCalc obj1 = new AdavancedCalc();
+		int r1 = obj1.add(5,5);
+		
+		System.out.println(r1);
+
+	}
+
+}

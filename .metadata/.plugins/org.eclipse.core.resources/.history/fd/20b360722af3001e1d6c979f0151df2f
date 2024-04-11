@@ -1,0 +1,10 @@
+package closureexample.in;
+
+public class ClouserExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

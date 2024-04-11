@@ -1,0 +1,18 @@
+package interfacee.in;
+
+class Devloper{
+	public void devApp() {
+		System.out.println("Coding.....");
+	}
+}
+
+public class Example {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Devloper obj1 = new Devloper();
+		obj1.devApp();
+
+	}
+
+}

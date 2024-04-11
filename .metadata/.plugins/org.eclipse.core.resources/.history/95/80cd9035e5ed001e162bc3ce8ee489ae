@@ -1,0 +1,42 @@
+package staticc.in;
+
+class Mobile{
+	String brand;
+	int price;
+	//Static Variable can access by using class not object.
+	//
+	static String name;
+	
+	public void show() {
+		System.out.println(brand +" "+ price +" "+ name);
+		
+	}
+	
+	public static void show1(Mobile obj) {
+		System.out.println(obj.brand +" "+obj.price +" "+ Mobile.name);
+		
+	}
+	
+	
+}
+
+public class StaticVariable {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Mobile obj1 = new Mobile();
+		obj1.brand = "Apple";
+		obj1.price = 1500;
+		Mobile.name = "SmartPhone";
+		
+		Mobile obj2 = new Mobile();
+		obj2.brand = "Vivo";
+		obj2.price = 500;
+		Mobile.name = "SmartPhone";
+		
+		obj1.show();
+		obj2.show();
+		
+	}
+
+}

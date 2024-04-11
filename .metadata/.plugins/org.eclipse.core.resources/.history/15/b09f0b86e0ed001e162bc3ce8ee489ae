@@ -1,0 +1,24 @@
+package inheritance.in;
+
+class College {
+	String name;
+}
+
+class stud1 extends College{
+	
+}
+class stud2 extends College{
+	
+}
+
+public class Inheritance {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		College college = new College();
+		college.name = "Deepak";
+		System.out.println(college.name);
+
+	}
+
+}

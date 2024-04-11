@@ -1,0 +1,10 @@
+package enumeration.in;
+
+public class EnumerationTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

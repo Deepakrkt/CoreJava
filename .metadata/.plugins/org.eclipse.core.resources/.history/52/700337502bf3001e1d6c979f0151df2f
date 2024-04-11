@@ -1,0 +1,25 @@
+package closureexample.in;
+
+interface Process {
+	int a = 10;
+	int b = 20;
+	void process(int i);
+	static void doProcess(int i, Process p) {
+		p.process(i);
+	}
+}
+
+
+public class ClouserExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Process.doProcess(a, i -> System.out.println(i+b));
+		
+
+	}
+	
+
+}
+

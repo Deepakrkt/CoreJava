@@ -1,0 +1,17 @@
+package listiterator.in;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ListtIterator {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	List<Employee> emp1 = new ArrayList<>();
+	emp1.add(new Employee(1, "Jhon", 100.0, "jhon@gmail.com"));
+	
+
+	}
+
+}

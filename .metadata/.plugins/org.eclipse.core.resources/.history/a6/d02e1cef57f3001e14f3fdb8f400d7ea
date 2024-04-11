@@ -1,0 +1,22 @@
+package localdatetest.in;
+
+import java.time.Clock;
+import java.time.LocalDate;
+
+public class LocalDateTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		LocalDate localDate = LocalDate.now();
+		System.out.println(localDate);
+		
+		Clock clock = Clock.systemDefaultZone();
+		LocalDate localDate2 = LocalDate.now();
+		System.out.println(localDate2);
+		
+		
+
+	}
+
+}

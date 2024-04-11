@@ -1,0 +1,32 @@
+package singleton.in;
+
+public class App {
+	
+	private static App app;
+	
+	// create private constructor
+	
+	private App() {
+		
+	}
+	
+	public static App getInstance() {
+		if(null == app) {
+			app = new App();
+		}
+		return app;
+	}
+	
+	
+}
+
+public class Singleton {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		App app = App.getInstance();
+		
+
+	}
+
+}

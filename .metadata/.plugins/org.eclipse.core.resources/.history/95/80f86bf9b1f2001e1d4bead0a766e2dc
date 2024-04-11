@@ -1,0 +1,24 @@
+package lambda1.in;
+
+interface College{
+	void enroll();
+}
+interface MyAdd {
+	int add(int x, int y);
+	
+}
+
+public class Student {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		College clg1 = () -> System.out.println("Hey We are using Lambda Expression");
+		clg1.enroll();
+		MyAdd add = (int p, int q) -> p + q;
+		add.add(5, 5);
+		System.out.println(add);
+	}
+	
+}
+			
+	

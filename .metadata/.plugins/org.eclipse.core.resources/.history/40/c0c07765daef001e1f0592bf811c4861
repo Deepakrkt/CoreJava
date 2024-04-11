@@ -1,0 +1,5 @@
+package throow.in;
+
+public class HeyException extends Exception {
+
+}

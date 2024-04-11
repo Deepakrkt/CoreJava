@@ -1,0 +1,5 @@
+package interfacce.in;
+
+public class GClassImp<E> {
+
+}

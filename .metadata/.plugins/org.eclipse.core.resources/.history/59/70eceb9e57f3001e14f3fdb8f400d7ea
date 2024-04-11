@@ -1,0 +1,15 @@
+package localdatetest.in;
+
+import java.time.LocalDate;
+
+public class LocalDateTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		LocalDate localDate = LocalDate.now();
+		System.out.println(localDate);
+
+	}
+
+}

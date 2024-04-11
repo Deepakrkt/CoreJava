@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;polymorphism.in.Polymorphism&apos; to &apos;Overloading&apos;&#x0D;&#x0A;- Original project: &apos;OopsFundamental&apos;&#x0D;&#x0A;- Original element: &apos;polymorphism.in.Polymorphism&apos;&#x0D;&#x0A;- Renamed element: &apos;polymorphism.in.Overloading&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Polymorphism&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;polymorphism.in{Polymorphism.java[Polymorphism" matchStrategy="1" name="Overloading" qualified="false" references="true" similarDeclarations="false" stamp="1711740543732" textual="false" version="1.0"/>
+</session>

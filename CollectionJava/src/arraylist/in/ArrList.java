@@ -1,0 +1,30 @@
+package arraylist.in;
+
+import java.util.List;
+import java.util.ArrayList;
+
+public class ArrList {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		List<Integer> list1 = new ArrayList<>();
+		
+		list1.add(5);
+		list1.add(6);
+		list1.add(7);
+		list1.add(8);
+		list1.add(9);
+		
+		System.out.println(list1.get(3)+"****");
+		System.out.println(list1.size());
+		
+		for(int num : list1) {
+			int res = num;
+			System.out.println(res*2);
+		}
+		System.out.println(list1);
+
+	}
+
+}
